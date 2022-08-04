@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Trusted and organized to do list" />
+    <title>To Do List</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="icomoon/style.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <div class="landing">
+      <div class="overlay">
+        <div class="text">
+            <div class="text-content">
+              <h1>Organize your work and life</h1>
+              <p>Become focused, organized, and calm with To do list.</p>
+            </div>
+          </div>
+          <ul class="task-container" id="task-container"></ul>
+          <form class="form">
+            <input
+              lang="ar"
+              type="text"
+              name=""
+              onfocus="this.placeholder = ''"
+              id="input"
+              placeholder="Write Task"
+            />
+            <button id="btn" class="icon-upload"></button>
+          </form>
+        </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
